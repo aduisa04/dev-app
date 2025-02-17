@@ -1,0 +1,64 @@
+/* Basic styling for Todo List */
+.todo-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.todo-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f7f7f7;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.todo-title {
+  font-size: 1rem;
+  color: #333;
+}
+
+.status {
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.completed-status {
+  background-color: #4caf50;
+  color: white;
+}
+
+.not-completed-status {
+  background-color: #f44336;
+  color: white;
+}
+
+.completed {
+  background-color: #e8f5e9;
+}
+
+.not-completed {
+  background-color: #ffebee;
+}

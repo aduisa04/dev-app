@@ -1,0 +1,98 @@
+body {
+  background-image: url('https://files.123freevectors.com/wp-content/solidbackground/gilded-beige-free-solidcolor-background.jpg');
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.counter-section, .calculator-section {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(107, 63, 4, 0.856);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.counter-section {
+  background: rgba(107, 63, 4, 0.856);
+}
+
+.calculator-section {
+  background: rgba(107, 63, 4, 0.856);
+}
+
+button {
+  background-color: #e29d4e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input[type="number"] {
+  width: 80px;
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="number"]:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+.counter-section h1 {
+  color: #ffdfdf;
+}
+
+.calculator-section h2 {
+  font-size: 24px;
+  color: #ffdfdf;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.operation-buttons {
+  margin-top: 20px;
+}
+
+.operation-buttons button {
+  margin: 5px 10px;
+}
+
+.result {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffdfdf;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
